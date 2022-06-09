@@ -1,0 +1,159 @@
+body {
+    font-size: 100%;
+}
+.clear {
+    clear: both;
+}
+.line {
+    width: 100%;
+    border-bottom: #ccc 1px solid;
+    margin: 20px 0;
+}
+a {
+    color: black;
+}
+h2 img{
+    width: 100%;
+}
+/* 스마트폰 */
+.inner{
+    width: 90%;
+    margin: 0 auto;
+}
+[class*="l_"] {
+    float: left;
+    padding: 5px;
+    width: 100%;
+}
+@media screen and (min-width: 600px) {
+    /* 태블릿 */
+    .inner {width: 80%; margin: 0 auto;}
+    .l_t {width: 50%;}
+}
+@media screen and (min-width: 900px) {
+    /* 컴퓨터 */
+    .inner {width: 70%; margin: 0 auto;}
+    .l_p {width: 25%;}
+}
+
+header {
+    background-color: #eee;
+}
+header nav {
+    padding: 20px 0;
+}
+header nav h1 {
+    float: left;
+}
+header nav #gnb {
+    float: right;
+    padding: 5px 3px 0 0;
+}
+header nav #gnb li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+}
+header nav li a{
+    color: #aaa;
+}
+header nav li a:link{
+    color: #aaa;
+}
+header nav li a:visited{
+    color: #aaa;
+}
+header nav li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+header nav li a:active{
+    color: #000;
+}
+header nav li a.this {
+    color: #000;
+    font-weight: bold;
+}
+
+section#main .item {
+    position: relative;
+    margin: 10px auto;
+    transition: all 0.3s;
+}
+section#main .item:hover {
+    background-color: #ccc;
+}
+section#main .item img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+section#main .item .info {
+    position: absolute;
+    width: 97%;
+    height: 65px;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+section#main .item .info .name {
+    font-weight: bold;
+}
+section#main .item .info .brand {
+    font-size: 12px;
+    color: rgb(98, 98, 98);
+}
+
+section#main #sub_menu {
+    border-bottom: 1px solid #aaa;
+}
+section#main #sub_menu ul {
+    margin: 20px 0;
+}
+section#main #sub_menu ul li{
+    display: inline;
+    margin: 0 10px;
+}
+section#main #sub_menu ul li a{
+    color: #aaa;
+}
+section#main #sub_menu ul li a:link{
+    color: #aaa;
+}
+section#main #sub_menu ul li a:visited{
+    color: #aaa;
+}
+section#main #sub_menu ul li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+section#main #sub_menu ul li a:active{
+    color: #000;
+}
+section#main #sub_menu ul li a.this {
+    color: #000;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+footer #footer_logo {
+    float: right;
+    padding-top: 15px;
+}
+footer #footer_text {
+    float: left;
+}
+footer #footer_text a {
+    text-decoration: underline;
+}
+footer #copy {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #aaa;
+}
